@@ -23,7 +23,7 @@ call conda install pytorch==1.3.1 -c pytorch
 pip install cmake
 pip install -r requirements.txt
 ### Quick Start (Apply a Pre-trained Model)
-- Download a pre-trained model from
+- Download a pre-trained model from (https://drive.google.com/open?id=1cQx9hPOJ18sU5HPGkbRTJ-e6cYqqHUHh)
 cd sse
 sse.exe "-i index_file -v vocabulary -f filelist -n 8"
 call conda activate py36df
@@ -31,9 +31,9 @@ python demo.py
 
 ## Acknowledgments
 Our code is depended on the following opensource codes.
-[MaskGAN_demo](https://github.com/switchablenorms/CelebAMask-HQ).
-faceParsing(https://github.com/zllrunning/face-parsing.PyTorch), 
-APDrawingGAN(https://github.com/yiranran/APDrawingGAN), 
+[MaskGAN_demo](https://github.com/switchablenorms/CelebAMask-HQ)
+faceParsing(https://github.com/zllrunning/face-parsing.PyTorch) 
+APDrawingGAN(https://github.com/yiranran/APDrawingGAN)
 OpenSSE(https://github.com/zddhub/opensse)
 
 ## Citation
