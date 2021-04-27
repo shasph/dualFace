@@ -48,8 +48,10 @@ If you use this code for your research, please cite our paper.
 ```
 @inproceedings{Huang21,
   title     = {dualFace: Two-Stage Drawing Guidance for Freehand Portrait Sketching},
-  author    = {Zhengyu Huang, Yichen Peng, Tomohiro Hibino, Chunqi Zhao, Haoran Xie, Tsukasa Fukusato, Kazunori Miyata},
-  booktitle = {Journal of Computational Visual Media},
-  year      = {2021}
+  author    = {Zhengyu Huang and Yichen Peng and Tomohiro Hibino and Chunqi Zhao and Haoran Xie and Tsukasa Fukusato and Kazunori Miyata},
+  year      = {2021},
+  eprint    = {2104.12297},
+  archivePrefix = {arXiv},
+  primaryClass  ={cs.GR}
 }
 ```
