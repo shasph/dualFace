@@ -1,0 +1,12 @@
+torchvision==0.4.1
+dominate>=2.3.1
+visdom>=0.1.8.3
+scipy>=1.1.0
+numpy>=1.14.1
+Pillow>=5.0.0
+opencv-python==4.1.2.30
+matplotlib==3.3.4
+face_recognition
+PyQt5==5.13.1
+Sip==5.3.0
+pyyaml
