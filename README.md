@@ -46,7 +46,7 @@ Please contact xie@jaist.ac.jp for any comments or requests.
 ## Citation
 If you use this code for your research, please cite our paper.
 ```
-@inproceedings{Huang21,
+@misc{huang21dualface,
   title     = {dualFace: Two-Stage Drawing Guidance for Freehand Portrait Sketching},
   author    = {Zhengyu Huang and Yichen Peng and Tomohiro Hibino and Chunqi Zhao and Haoran Xie and Tsukasa Fukusato and Kazunori Miyata},
   year      = {2021},
