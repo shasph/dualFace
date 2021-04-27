@@ -3,7 +3,7 @@ dualFace: Two-Stage Drawing Guidance for Freehand Portrait Sketching (CVMJ)
 
 We provide python implementations for our CVM 2021 paper "dualFace:Two-Stage Drawing Guidance for Freehand Portrait Sketching".
 This project provide sketch support for artistic portrait drawings with a two-stage framework.
-[[Paper]](http://www.jaist.ac.jp/~xie/dualface.html)
+[[arXiv]](https://arxiv.org/abs/2104.12297)[[PDF]](https://arxiv.org/pdf/2104.12297.pdf)[[Project]](http://www.jaist.ac.jp/~xie/dualface.html)
 
 ## User Interface
 ![image](https://user-images.githubusercontent.com/4180028/116048238-f08a1180-a6af-11eb-9504-8b8f9dd99236.png)
