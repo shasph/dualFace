@@ -40,6 +40,7 @@ Our code is depended on the following opensource codes.
 - faceParsing(https://github.com/zllrunning/face-parsing.PyTorch) 
 - APDrawingGAN(https://github.com/yiranran/APDrawingGAN)
 - OpenSSE(https://github.com/zddhub/opensse)
+
 Please contact xie@jaist.ac.jp for any comments or requests.
 
 ## Citation
