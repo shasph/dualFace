@@ -35,7 +35,7 @@ python demo.py
 ```
 
 ## Acknowledgments
-Our code is depended on the following opensource codes.
+Our code has depended on the following opensource codes.
 - MaskGAN(https://github.com/switchablenorms/CelebAMask-HQ)
 - faceParsing(https://github.com/zllrunning/face-parsing.PyTorch) 
 - APDrawingGAN(https://github.com/yiranran/APDrawingGAN)
