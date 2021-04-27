@@ -15,6 +15,7 @@ This project provide sketch support for artistic portrait drawings with a two-st
 ## Getting Started
 ### Installation
 - Install PyTorch 1.3.1 and torchvision 0.4.1 from http://pytorch.org and other dependencies (e.g., [visdom](https://github.com/facebookresearch/visdom) and [dominate](https://github.com/Knio/dominate)). You can install all the dependencies by
+```bash
 bat
 call conda remove -n py36df
 call conda create -n py36df python=3.6 
@@ -22,25 +23,31 @@ call conda activate py36df
 call conda install pytorch==1.3.1 -c pytorch
 pip install cmake
 pip install -r requirements.txt
+```
+
 ### Quick Start (Apply a Pre-trained Model)
 - Download a pre-trained model from (https://drive.google.com/open?id=1cQx9hPOJ18sU5HPGkbRTJ-e6cYqqHUHh)
+```bash
 cd sse
 sse.exe "-i index_file -v vocabulary -f filelist -n 8"
 call conda activate py36df
 python demo.py
+```
 
 ## Acknowledgments
 Our code is depended on the following opensource codes.
-[MaskGAN_demo](https://github.com/switchablenorms/CelebAMask-HQ)
-faceParsing(https://github.com/zllrunning/face-parsing.PyTorch) 
-APDrawingGAN(https://github.com/yiranran/APDrawingGAN)
-OpenSSE(https://github.com/zddhub/opensse)
+- MaskGAN(https://github.com/switchablenorms/CelebAMask-HQ)
+- faceParsing(https://github.com/zllrunning/face-parsing.PyTorch) 
+- APDrawingGAN(https://github.com/yiranran/APDrawingGAN)
+- OpenSSE(https://github.com/zddhub/opensse)
 
 ## Citation
 If you use this code for your research, please cite our paper.
+```
 @inproceedings{YiLLR19,
   title     = {dualFace: Two-Stage Drawing Guidance for Freehand Portrait Sketching},
   author    = {Zhengyu Huang, Yichen Peng, Tomohiro Hibino, Chunqi Zhao, Haoran Xie, Tsukasa Fukusato, Kazunori Miyata},
   booktitle = {Journal of Computational Visual Media},
   year      = {2021}
 }
+```
