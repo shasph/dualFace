@@ -44,7 +44,7 @@ Our code is depended on the following opensource codes.
 ## Citation
 If you use this code for your research, please cite our paper.
 ```
-@inproceedings{YiLLR19,
+@inproceedings{Huang21,
   title     = {dualFace: Two-Stage Drawing Guidance for Freehand Portrait Sketching},
   author    = {Zhengyu Huang, Yichen Peng, Tomohiro Hibino, Chunqi Zhao, Haoran Xie, Tsukasa Fukusato, Kazunori Miyata},
   booktitle = {Journal of Computational Visual Media},
