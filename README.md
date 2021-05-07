@@ -4,6 +4,9 @@ dualFace: Two-Stage Drawing Guidance for Freehand Portrait Sketching (CVMJ)
 We provide python implementations for our CVM 2021 paper "dualFace:Two-Stage Drawing Guidance for Freehand Portrait Sketching".
 This project provide sketch support for artistic portrait drawings with a two-stage framework.
 [[arXiv]](https://arxiv.org/abs/2104.12297)[[PDF]](https://arxiv.org/pdf/2104.12297.pdf)[[Project]](http://www.jaist.ac.jp/~xie/dualface.html)[[Video]](https://youtu.be/29nrIwo1t10)
+```
+In this paper, we propose dualFace, a portrait drawing interface to assist users with different levels of drawing skills to complete recognizable and authentic face sketches. dualFace consists of two-stage drawing assistance to provide global and local visual guidance: global guidance, which helps users draw contour lines of portraits (i.e., geometric structure), and local guidance, which helps users draws details of facial parts (which conform to user-drawn contour lines), inspired by traditional artist workflows in portrait drawing. In the stage of global guidance, the user draws several contour lines, and dualFace then searches several relevant images from an internal database and displays the suggested face contour lines over the background of the canvas. In the stage of local guidance, we synthesize detailed portrait images with a deep generative model from user-drawn contour lines, but use the synthesized results as detailed drawing guidance. We conducted a user study to verify the effectiveness of dualFace, and we confirmed that dualFace significantly helps achieve a detailed portrait sketch.
+```
 
 ## User Interface
 ![image](https://user-images.githubusercontent.com/4180028/116048238-f08a1180-a6af-11eb-9504-8b8f9dd99236.png)
