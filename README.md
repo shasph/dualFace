@@ -8,10 +8,11 @@ This project provide sketch support for artistic portrait drawings with a two-st
 ## User Interface
 ![image](https://user-images.githubusercontent.com/4180028/116048238-f08a1180-a6af-11eb-9504-8b8f9dd99236.png)
 
-## Network Structure
+## Network Structure (Global Stage)
 ![dualface-global](https://user-images.githubusercontent.com/4180028/117390165-9e0ae980-af28-11eb-859a-3d8987d6fbe5.JPG)
-![dualface-local](https://user-images.githubusercontent.com/4180028/117390179-a2cf9d80-af28-11eb-8ef5-94ad2456552a.JPG)
 
+## Network Structure (Local Stage)
+![dualface-local](https://user-images.githubusercontent.com/4180028/117390179-a2cf9d80-af28-11eb-8ef5-94ad2456552a.JPG)
 
 ## Prerequisites
 - Window
