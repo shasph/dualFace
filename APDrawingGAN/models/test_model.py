@@ -51,9 +51,13 @@ class TestModel(BaseModel):
 
     def set_input(self, input):
         # we need to use single_dataset mode
+        #A=torch.unsqueeze(input['A'], 0)
         self.real_A = input['A'].to(self.device)
+        #self.real_A = A.to(self.device)
         self.image_paths = input['A_paths']
         if self.opt.use_local:
+            print(self.real_A.shape)
+            print('setdata')
             self.real_A_eyel = input['eyel_A'].to(self.device)
             self.real_A_eyer = input['eyer_A'].to(self.device)
             self.real_A_nose = input['nose_A'].to(self.device)

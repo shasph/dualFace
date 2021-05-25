@@ -2,16 +2,17 @@ import argparse
 import os
 from util import util
 import torch
-import models
-import data
 
+import APDrawingGAN.models as models
+import APDrawingGAN.data as data
 
+UseTest=True
 class BaseOptions():
     def __init__(self):
         self.initialized = False
 
     def initialize(self, parser):
-        parser.add_argument('--dataroot', required=True, help='path to images (should have subfolders train, test etc)')
+        parser.add_argument('--dataroot',  type=str, default='.',help='path to images (should have subfolders train, test etc)')
         parser.add_argument('--batch_size', type=int, default=1, help='input batch size')
         parser.add_argument('--loadSize', type=int, default=512, help='scale images to this size')
         parser.add_argument('--fineSize', type=int, default=512, help='then crop to this size')
@@ -70,7 +71,8 @@ class BaseOptions():
 
         # get the basic options
         opt, _ = parser.parse_known_args()
-
+        if UseTest:
+            opt.model='test'
         # modify model-related parser options
         model_name = opt.model
         model_option_setter = models.get_option_setter(model_name)
@@ -109,6 +111,9 @@ class BaseOptions():
     def parse(self):
 
         opt = self.gather_options()
+        if UseTest:
+            opt.use_local=True
+        
         if opt.use_local:
             opt.loadSize = opt.fineSize
         opt.isTrain = self.isTrain   # train or test

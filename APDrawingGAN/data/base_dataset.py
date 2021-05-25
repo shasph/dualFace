@@ -22,9 +22,11 @@ class BaseDataset(data.Dataset):
 
 
 def get_transform(opt):
+    print('resize_or_crop',opt.resize_or_crop)
     transform_list = []
     if opt.resize_or_crop == 'resize_and_crop':
         osize = [opt.loadSize, opt.fineSize]
+        print('osize=',osize)
         transform_list.append(transforms.Resize(osize, Image.BICUBIC))
         transform_list.append(transforms.RandomCrop(opt.fineSize))
     elif opt.resize_or_crop == 'crop':
