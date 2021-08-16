@@ -52,11 +52,23 @@ Please contact xie@jaist.ac.jp for any comments or requests.
 ## Citation
 If you use this code for your research, please cite our paper.
 ```
-@article{huang21dualface,
-  title={dualFace: Two-Stage Drawing Guidance for Freehand Portrait Sketching},
-  author={Huang, Zhengyu and Peng, Yichen and Hibino, Tomohiro and Zhao, Chunqi Zhao and Xie, Haoran and Fukusato, Tsukasa and Miyata, Kazunori},
-  journal={Computational Visual Media},
-  year={2021},
-  publisher={Springer}
+@article{DBLP:journals/corr/abs-2104-12297,
+  author    = {Zhengyu Huang and
+               Yichen Peng and
+               Tomohiro Hibino and
+               Chunqi Zhao and
+               Haoran Xie and
+               Tsukasa Fukusato and
+               Kazunori Miyata},
+  title     = {dualFace: Two-Stage Drawing Guidance for Freehand Portrait Sketching},
+  journal   = {CoRR},
+  volume    = {abs/2104.12297},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2104.12297},
+  archivePrefix = {arXiv},
+  eprint    = {2104.12297},
+  timestamp = {Mon, 03 May 2021 17:38:30 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2104-12297.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
