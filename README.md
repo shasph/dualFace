@@ -52,7 +52,7 @@ Please contact xie@jaist.ac.jp for any comments or requests.
 ## Citation
 If you use this code for your research, please cite our paper.
 ```
-@article{DBLP:journals/corr/abs-2104-12297,
+@article{dualface2021,
   author    = {Zhengyu Huang and
                Yichen Peng and
                Tomohiro Hibino and
