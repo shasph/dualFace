@@ -61,14 +61,10 @@ If you use this code for your research, please cite our paper.
                Tsukasa Fukusato and
                Kazunori Miyata},
   title     = {dualFace: Two-Stage Drawing Guidance for Freehand Portrait Sketching},
-  journal   = {CoRR},
-  volume    = {abs/2104.12297},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2104.12297},
-  archivePrefix = {arXiv},
-  eprint    = {2104.12297},
-  timestamp = {Mon, 03 May 2021 17:38:30 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2104-12297.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  journal   = {Computational Visual Media},
+  volume    = {8},
+  pages     = {63–77},
+  year      = {2022},
+  url       = {https://doi.org/10.1007/s41095-021-0227-7}
 }
 ```
